@@ -6,8 +6,12 @@ export const useUserStore = create((set) => ({
   allUsers: [],
   allUsersLoading: false,
 
+  getUserCoolKid: async () => {
+    set({ allUsers: [] });
+  },
+
   getAllUsers: async () => {
-    set({ allUsersLoading: true });
+    set({ allUsersLoading: true, allUsers: [] });
     try {
       const response = await apiRequest.get("/users/get-all-users");
       set({ allUsers: response.data, allUsersLoading: false });

@@ -52,3 +52,114 @@
 2024-12-16T05:51:58.316Z info: protectRoute: Protected route passed
 2024-12-16T05:51:58.663Z info: getAllUsersDetails: Fetched all users details
 2024-12-16T05:52:08.581Z info: Logging out user
+2024-12-16T10:05:09.442Z info: Server started on port 8080
+2024-12-16T10:05:33.537Z info: Server started on port 8080
+2024-12-16T10:05:35.391Z info: token: undefined
+2024-12-16T10:05:35.393Z warn: From protectRoute: No token provided
+2024-12-16T10:05:50.514Z info: generateToken: Generated token
+2024-12-16T10:05:50.517Z info: setCookie: Set cookie
+2024-12-16T10:05:50.520Z info: Logged in user
+2024-12-16T10:05:50.538Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzQzNTUwLCJleHAiOjE3MzQ1MTYzNTB9.0O4W-ZuWau9_OxblBNqNahlG4Ij1aYR8qb4XAx_TCBA
+2024-12-16T10:05:50.551Z info: protectRoute: Protected route passed
+2024-12-16T10:05:50.977Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:05:57.092Z info: Logging out user
+2024-12-16T10:06:11.242Z info: generateToken: Generated token
+2024-12-16T10:06:11.244Z info: setCookie: Set cookie
+2024-12-16T10:06:11.246Z info: Logged in user
+2024-12-16T10:06:20.549Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRxdjhjNWQwMDAwbG8zMG9zMDdpZThiIiwidXNlclJvbGUiOiJjb29sIGtpZCIsImlhdCI6MTczNDM0MzU3MSwiZXhwIjoxNzM0NTE2MzcxfQ.lmtyRCZKxi6QKkBSM1KiGLJ9BguKttPnMcvlFmRwzoA
+2024-12-16T10:06:20.560Z info: protectRoute: Protected route passed
+2024-12-16T10:06:20.976Z info: getLoggedInUser: Fetched logged in user
+2024-12-16T10:06:22.609Z info: Logging out user
+2024-12-16T10:11:45.932Z info: Server started on port 8080
+2024-12-16T10:11:50.317Z info: token: undefined
+2024-12-16T10:11:50.320Z warn: From protectRoute: No token provided
+2024-12-16T10:12:05.604Z info: generateToken: Generated token
+2024-12-16T10:12:05.607Z info: setCookie: Set cookie
+2024-12-16T10:12:05.612Z info: Logged in user
+2024-12-16T10:12:05.629Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzQzOTI1LCJleHAiOjE3MzQ1MTY3MjV9.8hago9u5e1TMwIcrY8P6LbcV7cBD5_eXMg8SIPSurT8
+2024-12-16T10:12:05.637Z info: protectRoute: Protected route passed
+2024-12-16T10:12:06.162Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:12:17.917Z info: Logging out user
+2024-12-16T10:12:32.969Z info: generateToken: Generated token
+2024-12-16T10:12:32.971Z info: setCookie: Set cookie
+2024-12-16T10:12:32.973Z info: Logged in user
+2024-12-16T10:13:06.120Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRxdjhjNWQwMDAwbG8zMG9zMDdpZThiIiwidXNlclJvbGUiOiJjb29sIGtpZCIsImlhdCI6MTczNDM0Mzk1MiwiZXhwIjoxNzM0NTE2NzUyfQ.hG69DsRO3_P1o2yjNGaGlK4Of4qRub0nD-q1uIAG7H8
+2024-12-16T10:13:06.132Z info: protectRoute: Protected route passed
+2024-12-16T10:13:06.782Z info: getLoggedInUser: Fetched logged in user
+2024-12-16T10:13:19.271Z info: Logging out user
+2024-12-16T10:14:51.999Z info: Server started on port 8080
+2024-12-16T10:16:10.089Z info: Server started on port 8080
+2024-12-16T10:16:22.294Z info: token: undefined
+2024-12-16T10:16:22.296Z warn: From protectRoute: No token provided
+2024-12-16T10:16:34.910Z info: generateToken: Generated token
+2024-12-16T10:16:34.912Z info: setCookie: Set cookie
+2024-12-16T10:16:34.915Z info: Logged in user
+2024-12-16T10:16:34.943Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzQ0MTk0LCJleHAiOjE3MzQ1MTY5OTR9.3WQ21JwgO35D7OOwrOoKYFyauhELL2ySx-USfvS5Ojw
+2024-12-16T10:16:34.958Z info: protectRoute: Protected route passed
+2024-12-16T10:16:35.471Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:16:40.299Z info: Logging out user
+2024-12-16T10:16:57.223Z info: generateToken: Generated token
+2024-12-16T10:16:57.225Z info: setCookie: Set cookie
+2024-12-16T10:16:57.227Z info: Logged in user
+2024-12-16T10:17:25.726Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRxdjhjNWQwMDAwbG8zMG9zMDdpZThiIiwidXNlclJvbGUiOiJjb29sIGtpZCIsImlhdCI6MTczNDM0NDIxNywiZXhwIjoxNzM0NTE3MDE3fQ.lGNGZ5E1d0TuDys_cd8smCV3lNwFT3ESn0yIZ0bjVwc
+2024-12-16T10:17:25.733Z info: protectRoute: Protected route passed
+2024-12-16T10:17:26.465Z info: getLoggedInUser: Fetched logged in user
+2024-12-16T10:17:34.252Z info: Logging out user
+2024-12-16T10:17:48.006Z info: generateToken: Generated token
+2024-12-16T10:17:48.008Z info: setCookie: Set cookie
+2024-12-16T10:17:48.010Z info: Logged in user
+2024-12-16T10:17:49.491Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzQ0MjY4LCJleHAiOjE3MzQ1MTcwNjh9.uX5t2pQAX17uSM3HdXVT6N77t6a9Lkzf-KTTjzVjK8k
+2024-12-16T10:17:49.498Z info: protectRoute: Protected route passed
+2024-12-16T10:17:49.707Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:17:57.019Z info: Logging out user
+2024-12-16T10:18:14.983Z info: generateToken: Generated token
+2024-12-16T10:18:14.984Z info: setCookie: Set cookie
+2024-12-16T10:18:14.986Z info: Logged in user
+2024-12-16T10:18:21.807Z info: Logging out user
+2024-12-16T10:18:34.846Z info: generateToken: Generated token
+2024-12-16T10:18:34.847Z info: setCookie: Set cookie
+2024-12-16T10:18:34.850Z info: Logged in user
+2024-12-16T10:18:36.318Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc3BpczIwMDAydjdqY3YyOW10amVrIiwidXNlclJvbGUiOiJjb29sZXN0IGtpZCIsImlhdCI6MTczNDM0NDMxNCwiZXhwIjoxNzM0NTE3MTE0fQ.IVyBGODWLJStQ8yXzSoSRVW2e2gSDf4HdaDp3hbaUKk
+2024-12-16T10:18:36.325Z info: protectRoute: Protected route passed
+2024-12-16T10:18:36.507Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:18:44.476Z info: Logging out user
+2024-12-16T10:19:04.339Z info: generateToken: Generated token
+2024-12-16T10:19:04.340Z info: setCookie: Set cookie
+2024-12-16T10:19:04.342Z info: Logged in user
+2024-12-16T10:19:17.670Z info: Logging out user
+2024-12-16T10:19:29.784Z info: generateToken: Generated token
+2024-12-16T10:19:29.786Z info: setCookie: Set cookie
+2024-12-16T10:19:29.788Z info: Logged in user
+2024-12-16T10:19:31.066Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc3B1c2QwMDAzdjdqYzMwZ2VvYWU4IiwidXNlclJvbGUiOiJjb29sZXIga2lkIiwiaWF0IjoxNzM0MzQ0MzY5LCJleHAiOjE3MzQ1MTcxNjl9.vQyAbHC-0w-YGUWr9ir4Hdp5yd_0JCNjmg8Iacbodgk
+2024-12-16T10:19:31.075Z info: protectRoute: Protected route passed
+2024-12-16T10:19:31.396Z info: getAllUsers: Fetched all users
+2024-12-16T10:19:35.906Z info: Logging out user
+2024-12-16T10:23:08.429Z info: Server started on port 8080
+2024-12-16T10:23:14.341Z info: token: undefined
+2024-12-16T10:23:14.344Z warn: From protectRoute: No token provided
+2024-12-16T10:23:26.537Z info: generateToken: Generated token
+2024-12-16T10:23:26.541Z info: setCookie: Set cookie
+2024-12-16T10:23:26.543Z info: Logged in user
+2024-12-16T10:23:26.561Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzQ0NjA2LCJleHAiOjE3MzQ1MTc0MDZ9.zUS1VtOeneIIk5Ph9ekKZE-P9Toflp6isi0sPKmAahE
+2024-12-16T10:23:26.572Z info: protectRoute: Protected route passed
+2024-12-16T10:23:27.016Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:23:28.869Z info: Logging out user
+2024-12-16T10:23:39.970Z info: generateToken: Generated token
+2024-12-16T10:23:39.972Z info: setCookie: Set cookie
+2024-12-16T10:23:39.975Z info: Logged in user
+2024-12-16T10:23:44.689Z info: Logging out user
+2024-12-16T10:23:55.171Z info: generateToken: Generated token
+2024-12-16T10:23:55.173Z info: setCookie: Set cookie
+2024-12-16T10:23:55.176Z info: Logged in user
+2024-12-16T10:23:55.186Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc3B1c2QwMDAzdjdqYzMwZ2VvYWU4IiwidXNlclJvbGUiOiJjb29sZXIga2lkIiwiaWF0IjoxNzM0MzQ0NjM1LCJleHAiOjE3MzQ1MTc0MzV9.N44oFhgJ9QUCHbyec2hBFzDsoauvnuXbbP-Y1wqJPwQ
+2024-12-16T10:23:55.207Z info: protectRoute: Protected route passed
+2024-12-16T10:23:55.687Z info: getAllUsers: Fetched all users
+2024-12-16T10:23:59.873Z info: Logging out user
+2024-12-16T10:24:10.822Z info: generateToken: Generated token
+2024-12-16T10:24:10.824Z info: setCookie: Set cookie
+2024-12-16T10:24:10.826Z info: Logged in user
+2024-12-16T10:24:10.837Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc3BpczIwMDAydjdqY3YyOW10amVrIiwidXNlclJvbGUiOiJjb29sZXN0IGtpZCIsImlhdCI6MTczNDM0NDY1MCwiZXhwIjoxNzM0NTE3NDUwfQ.6LodZ6mobs4Fu2dnEZxuLN10_zR6UGa66-nKukuMDZ8
+2024-12-16T10:24:10.844Z info: protectRoute: Protected route passed
+2024-12-16T10:24:11.051Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T10:24:19.543Z info: Logging out user
+2024-12-16T10:24:29.915Z warn: Invalid credentials

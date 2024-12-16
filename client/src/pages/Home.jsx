@@ -8,14 +8,23 @@ import Spinner from "../pages/Spinner";
 const Home = () => {
   const { user, loading } = useAuthStore(); // Access the current logged-in user
 
-  const { allUsers, getAllUsers, getAllUsersDetails, allUsersLoading } =
-    useUserStore();
+  const {
+    allUsers,
+    getAllUsers,
+    getAllUsersDetails,
+    allUsersLoading,
+    getUserCoolKid,
+  } = useUserStore();
+
+  useEffect(() => {
+    if (user && user.role === "cool kid") getUserCoolKid();
+  }, [getUserCoolKid, user, user?.role]);
 
   useEffect(() => {
     if (user && user.role === "cooler kid") {
       getAllUsers();
     }
-  }, [getAllUsers, user]);
+  }, [getAllUsers, user, user?.role]);
 
   useEffect(() => {
     if (
@@ -24,7 +33,7 @@ const Home = () => {
     ) {
       getAllUsersDetails();
     }
-  }, [getAllUsersDetails, user]);
+  }, [getAllUsersDetails, user, user?.role]);
   if (loading) return <Spinner />;
 
   return (
