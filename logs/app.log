@@ -1,0 +1,54 @@
+2024-12-15T18:41:26.477Z info: Server started on port 8080
+2024-12-15T18:57:11.693Z info: Server started on port 8080
+2024-12-15T18:57:25.773Z info: generateToken: Generated token
+2024-12-15T18:57:25.775Z info: setCookie: Set cookie
+2024-12-15T18:57:25.781Z info: Logged in user
+2024-12-15T18:57:44.230Z info: Logging out user
+2024-12-15T19:23:27.823Z info: Server started on port 8080
+2024-12-15T19:23:36.513Z info: Server started on port 8080
+2024-12-15T19:23:42.923Z info: generateToken: Generated token
+2024-12-15T19:23:42.927Z info: setCookie: Set cookie
+2024-12-15T19:23:42.936Z info: Logged in user
+2024-12-15T19:23:48.279Z info: Logging out user
+2024-12-15T20:06:43.244Z info: Server started on port 8080
+2024-12-15T20:07:33.738Z info: Server started on port 8080
+2024-12-15T20:08:38.507Z info: undefined
+2024-12-15T20:08:38.509Z warn: From protectRoute: No token provided
+2024-12-15T20:10:05.285Z info: Server started on port 8080
+2024-12-15T20:10:15.579Z info: undefined
+2024-12-15T20:10:15.580Z warn: From protectRoute: No token provided
+2024-12-15T20:11:41.828Z info: Server started on port 8080
+2024-12-15T20:11:54.120Z info: generateToken: Generated token
+2024-12-15T20:11:54.122Z info: setCookie: Set cookie
+2024-12-15T20:11:54.133Z info: Logged in user
+2024-12-15T20:11:54.205Z info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MjkzNTE0LCJleHAiOjE3MzQ0NjYzMTR9.BAj_AfFK8D2J2FM6lLhTbJD9mxJKyK45QNVPjSqpXtQ
+2024-12-15T20:11:54.218Z info: protectRoute: Protected route passed
+2024-12-15T20:11:54.632Z info: getAllUsersDetails: Fetched all users details
+2024-12-15T20:12:05.275Z info: Logging out user
+2024-12-15T20:13:33.529Z info: Server started on port 8080
+2024-12-15T20:14:12.494Z info: Server started on port 8080
+2024-12-15T20:14:55.934Z info: generateToken: Generated token
+2024-12-15T20:14:55.936Z info: setCookie: Set cookie
+2024-12-15T20:14:55.945Z info: Logged in user
+2024-12-15T20:14:56.023Z info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MjkzNjk1LCJleHAiOjE3MzQ0NjY0OTV9.iDt34SU-Y0Z_fqgltBPLEeEHq00lE4UJZ7bgbdzExt8
+2024-12-15T20:14:56.039Z info: protectRoute: Protected route passed
+2024-12-15T20:14:56.404Z info: getAllUsersDetails: Fetched all users details
+2024-12-15T20:15:01.853Z info: Logging out user
+2024-12-15T20:15:38.744Z info: Server started on port 8080
+2024-12-16T05:35:30.297Z info: Server started on port 8080
+2024-12-16T05:35:56.514Z info: Server started on port 8080
+2024-12-16T05:36:38.007Z info: Server started on port 8080
+2024-12-16T05:37:45.477Z info: Server started on port 8080
+2024-12-16T05:39:27.505Z info: Server started on port 8080
+2024-12-16T05:41:39.526Z info: Server started on port 8080
+2024-12-16T05:45:36.702Z info: Server started on port 8080
+2024-12-16T05:51:38.705Z info: Server started on port 8080
+2024-12-16T05:51:43.241Z info: token: undefined
+2024-12-16T05:51:43.243Z warn: From protectRoute: No token provided
+2024-12-16T05:51:58.246Z info: generateToken: Generated token
+2024-12-16T05:51:58.249Z info: setCookie: Set cookie
+2024-12-16T05:51:58.253Z info: Logged in user
+2024-12-16T05:51:58.289Z info: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTRwc2JxcjIwMDAwdjdqY3ViaXE4bjlyIiwidXNlclJvbGUiOiJtYWludGFpbmVyIiwiaWF0IjoxNzM0MzI4MzE4LCJleHAiOjE3MzQ1MDExMTh9.eueEmT1FFV5J0zZ-gWfvjVnRo7Geue3Ee_L3n14Qtz8
+2024-12-16T05:51:58.316Z info: protectRoute: Protected route passed
+2024-12-16T05:51:58.663Z info: getAllUsersDetails: Fetched all users details
+2024-12-16T05:52:08.581Z info: Logging out user
