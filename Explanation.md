@@ -25,6 +25,7 @@ Key functionalities of the system include:
 - **CORS**: Middleware to enable cross-origin resource sharing between client and server.
 - **Cookie-Parser**: To handle cookies for storing authentication tokens.
 - **Axios**: For making HTTP requests to external APIs.
+- **Github Actions**: For continuous integration and deployment.
 
 ### Core Features and Design Flow
 
