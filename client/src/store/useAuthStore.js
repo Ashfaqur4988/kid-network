@@ -19,7 +19,7 @@ export const useAuthStore = create((set) => ({
     } catch (error) {
       set({ loading: false });
       console.log(`error from signup: ${error}`);
-      toast.error(`Error from signup: ${error}`);
+      toast.error(`Error from signup`);
     }
   },
 
@@ -30,13 +30,13 @@ export const useAuthStore = create((set) => ({
         email,
         password,
       });
-      console.log(response.data);
+      // console.log(response.data);
       set({ user: response.data, loading: false });
       toast.success("Login successful");
     } catch (error) {
       set({ loading: false });
       console.log(`error from login: ${error}`);
-      toast.error(`Error from login: ${error}`);
+      toast.error(`Error from login`);
     }
   },
 
@@ -49,7 +49,7 @@ export const useAuthStore = create((set) => ({
     } catch (error) {
       set({ loading: false });
       console.log(`error from logout: ${error}`);
-      toast.error(`Error from logout: ${error}`);
+      toast.error(`Error from logout`);
     }
   },
 

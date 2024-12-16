@@ -1,0 +1,50 @@
+name: CI/CD pipeline
+
+on:
+  push:
+    branches:
+      - main # Branch name
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-and-deploy:
+    name: Lint and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20" # Replace with your Node.js version
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Run tests
+      - name: Run tests
+        run: npm run test
+        continue-on-error: true #if do not have test specified
+
+      # Lint the code
+      - name: Run Linter
+        run: npx eslint . --ext .js,.ts --ignore-path .gitignore
+
+      # Build the application
+      - name: Build application
+        run: npm run build
+
+      # Deploy to Render
+      - name: Deploy to Render
+        if: success()
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          curl -X POST "$RENDER_DEPLOY_HOOK_URL"

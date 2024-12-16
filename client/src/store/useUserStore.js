@@ -14,7 +14,7 @@ export const useUserStore = create((set) => ({
     } catch (error) {
       set({ allUsersLoading: false });
       console.log(`error from getAllUsers: ${error}`);
-      toast.error(`Error from getAllUsers: ${error}`);
+      toast.error(`Error from getAllUsers`);
     }
   },
 
@@ -48,7 +48,7 @@ export const useUserStore = create((set) => ({
     } catch (error) {
       set({ allUsersLoading: false });
       console.log(`error from updateUserRole: ${error.message}`);
-      toast.error(`Error from updateUserRole: ${error.message}`);
+      toast.error(`Error from updateUserRole`);
     }
   },
 }));
