@@ -1,4 +1,5 @@
 import reactPlugin from "eslint-plugin-react";
+import babelParser from "@babel/eslint-parser"; // Import the babel parser
 
 export default [
   {
@@ -7,13 +8,17 @@ export default [
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
+      parser: babelParser, // Use Babel parser for JSX
+      parserOptions: {
+        requireConfigFile: false, // Disable requiring a Babel config file
+        babelOptions: {
+          presets: ["@babel/preset-react"], // Ensure JSX is correctly parsed
+        },
+      },
     },
     plugins: {
       react: reactPlugin,
     },
-    rules: {
-      "no-console": "warn",
-      "no-unused-vars": "warn",
-    },
+    rules: {},
   },
 ];
